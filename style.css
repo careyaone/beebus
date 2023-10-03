@@ -370,10 +370,14 @@ nav .fa-bars{
 }
 
 .sub-title{
-  font-size: 4vw;
+  font-size: 5vw;
   background: -webkit-linear-gradient(#f6b93b, #e55039);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.busterbaik {
+  width: 100%;
 }
 
 .cta{
@@ -399,5 +403,12 @@ nav .fa-bars{
 
 }
 
+.cerita p{
+  font-size: 22px;
+}
+.about-msg {
+  font-size: 15px;
+
+}
 
 }
