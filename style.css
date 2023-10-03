@@ -58,7 +58,7 @@ nav {
 }
 .search-bar form {
   display: flex;
-  align-item: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 .search-bar form input {
@@ -293,6 +293,7 @@ nav .fa-bars{
     max-height: 100px;
     overflow: hidden;
     transition: max-height 0.5s;
+    
   }
   nav .nav-links li{
     margin: 10px 0;
@@ -318,4 +319,85 @@ nav .fa-bars{
   .hidemenu{
     max-height: 300px;
   }
+  .header h1{
+    padding-top: 200px;
+    font-size: 7vw;
+  
+  }
+  .search-bar{
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px 10px 30px;
+    border-radius: 5px;
+    position: relative;
+
+  }
+.search-bar form{
+  display: block;
+
+}
+.search-bar form input{
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.search-bar form button{
+  position: absolute;
+  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  left: 50%;
+  cursor: pointer;
+  transform: translate(-50%, 100%);
+  width: 100%;
+  line-height: 44px;
+   pointer-events: auto;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  z-index: 9;
+  border: 0;
+}
+
+.search-bar form button:hover {
+  background: #00bd68;
+}
+
+.sub-title{
+  font-size: 4vw;
+  background: -webkit-linear-gradient(#f6b93b, #e55039);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta{
+  padding: 8% 5%;
+
+}
+
+.cta h3{
+  font-size: 5vw;
+  line-height: 8vw;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+}
+
+.cta p{
+  font-size: 14px;
+}
+
+.cta-btn{
+  padding: 6px 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 14px;
+
+}
+
+
 }
