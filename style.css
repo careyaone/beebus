@@ -411,9 +411,10 @@ nav .fa-bars{
 
 }
 
-
 }
 
+
+/* listing bpage */
 
 .navbar-white{
   background: #fff;
@@ -444,4 +445,163 @@ nav.navbar-white .active::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.left-col{
+  flex-basis: 70%;
+}
+.right-col{
+  flex-basis: 25%;
+}
+.left-col h1{
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.lef-col h1{
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.bus{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px 0;
+  border-top: 1px solid #ccc;
+}
+
+.bus-img{
+  flex-basis: 40%;
+  
+}
+.bus-info{
+  flex-basis: 58%;
+  color: #555;
+
+}
+.bus-img img{
+  width: 100%;
+  border-radius: 20px;
+}
+.bus-info h3{
+  font-weight: 600;
+  color: #079992;
+  font-size: 22px;
+  margin: 4px 0;
+
+}
+.bus-info i{
+  color: #f6b93b;
+  font-size: 18px;
+  margin: 10px 1px;
+}
+.bus-price{
+  text-align: right;
+}
+
+.bus-price h4{
+  font-size: 20px;
+}
+
+.bus-price h4 span{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sidebar{
+  border: 1px solid #f6b93b;
+  padding: 20px 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.sidebar h2{
+  font-weight: 500;
+
+}
+.sidebar h3{
+  font-weight: 500;
+  margin: 20px 0 10px;
+}
+.filter{
+  display: flex;
+  align-items: center;
+  color: #555;
+  margin-bottom: 10px;
+}
+.filter p{
+  flex: 1px;
+}
+
+.filter input{
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.sidebar-link{
+  text-align: right;
+  margin: 20px 0;
+
+}
+
+.sidebar-link a{
+  text-decoration: none;
+}
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.pagination img{
+  width: 15px;
+  margin: 10px 20px;
+}
+
+.pagination span{
+  margin: 10px 8px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pagination .current{
+  color: #079992;
+
+}
+
+/*------------------------small screen for listing page---------------------*/
+
+@media only screen and (max-width: 700px){
+
+.list-container{
+  margin-top: 150px;
+}
+.left-col, .right-col, .bus-img, .bus-info{
+flex-basis: 100%;
+}
+.left-col h1{
+  font-size: 22px;
+}
+.bus-info h3{
+  font-size: 18px;
+}
+.bus-info i{
+  font-size: 16px;
+}
+
+.pagination span{
+margin: 10px 2px;
+width: 30px;
+height: 30px;
+line-height: 30px;
+font-size: 12px;
+}
+
 }
