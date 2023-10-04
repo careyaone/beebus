@@ -411,4 +411,37 @@ nav .fa-bars{
 
 }
 
+
+}
+
+
+.navbar-white{
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 5px 10px;
+}
+
+.navbar-white .nav-links li a{
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-white .register-btn{
+  background: #f6b93b;
+  color: #fff;
+}
+
+nav.navbar-white  .fa-bars{
+  color: #e55039;
+}
+
+nav.navbar-white .active::after {
+  background: #e55039;
+}
+
+
+.list-container{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

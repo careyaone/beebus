@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cek</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ad67eeb875.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav id="navBar" class="navbar-white">
+      <img src="images/bus.png" class="logo" />
+      <ul class="nav-links">
+        <li><a href="#">Tiket</a></li>
+        <li><a href="#">Promo</a></li>
+        <li><a href="#">Kantong</a></li>
+      </ul>
+      <a href="#" class="register-btn">Register Sekarang</a>
+      <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+
+    <div class="container">
+      <div class="list-container">
+        <div class="left-col">
+          <p>200+ Options</p>
+          <h1>Recommended Bus</h1>
+          <div class="bus">
+            <div class="bus-img">
+              <img src="images/bus/bejeu.jpg" />
+            </div>
+            <div class="bus-info">
+              <p>Bus Terbaik</p>
+              <h3>Bejeu Deluxe</h3>
+              <p>1 seat / snacks</p>
+            </div>
+          </div>
+        </div>
+        <div class="right-col"></div>
+      </div>
+
+      <div class="footer">
+        <a href="https://facebook.com/"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://twitter.com/"
+          ><i class="fa-brands fa-square-twitter"></i
+        ></a>
+        <a href="https://instagram.com/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        <hr />
+        <p>Copyright Beebus 2023</p>
+      </div>
+    </div>
+
+    <script>
+      var navBar = document.getElementById("navBar");
+
+      function togglebtn() {
+        navBar.classList.toggle("hidemenu");
+      }
+    </script>
+  </body>
+</html>
